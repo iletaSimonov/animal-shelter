@@ -1,0 +1,96 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header,.appointment {
+  color:azure;
+}
+
+ .sidebar{
+  width: 12%;
+  float:right;
+  background-color: rgba(205, 209, 228, 0.5);
+  position:fixed;
+  border-radius: 5px;
+ }
+
+ .sidebar h2 {
+  color:darkolivegreen;
+  padding: 30px;
+ }
+
+ li.donate{
+  color:darkred;
+  font-weight: 700;
+ }
+
+ h1 {
+  color: white;
+  background-color: lightgrey;
+  padding: 40px;
+  border-width: 5px;
+  border-radius: 5px;
+ }
+
+ .header {
+  background-color: rgba(156,175,136,0.5);
+  padding: 40px;
+ }
+
+ body {
+  margin:auto;
+  text-align: center;
+  box-sizing: border-box;
+  display:block;
+  letter-spacing: 2px;
+  background-color: rgba(108,122,137);
+ }
+
+.column {
+  width:15%;
+  float:right;
+  margin-left: 20px;
+  justify-content: center;
+  display: block;
+  border: 1% darkgrey;
+  padding: 12px;
+  background-color: rgba(206, 195, 200);
+  border-radius: 5px;
+  border-color: darkgrey;
+}
+
+.animals {
+  justify-content: center;
+  align-content: center;
+  width:auto;
+  background-color: darkgrey;
+  padding: 2px;
+
+}
+
+.animals h2 {
+  color: darkgreen;
+}
+
+img {
+  width: 70%;
+  height: 90$;
+}
+
+.closing {
+  display:block;
+  float: left;
+  margin: 50px 10px 50px 10px;
+  padding: 40px;
+  background-color: rgba(156,175,136,0.5);
+}
+
+li {
+  list-style: none;
+  font-style: bold;
+  line-height: 50px;
+}
+
+.donate {
+  font-style: oblique;
+}
