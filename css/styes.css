@@ -94,3 +94,26 @@ li {
 .donate {
   font-style: oblique;
 }
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 15%;
+    float: left;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width:900px) and (min-width:500px){
+  .sidebar { 
+    display:none;
+  } 
+}
+@media screen and (max-width: 500px) {
+  .column{
+    float:none;
+    width: 70%;
+  }
+  .sidebar { 
+    display:none;
+  
+}
